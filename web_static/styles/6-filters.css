@@ -6,10 +6,12 @@
     display: inline-block;
     height: 70px;
     width: 100%;
+    
 
 }
 .locations, .amenities
 {
+   
     height: 100%;
     width: 25%;
     display: inline-block;
@@ -23,9 +25,10 @@
 .filters h2 {
     font-size: 16px;
     font-weight: bold;
-    margin-left: 30px;
+    /*margin-left: 30px;*/
     margin-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 30px;
+    
 
   }
 
@@ -33,7 +36,7 @@
 {
     font-weight: 600;
     margin-bottom: 0px;
-    padding-left: 20px;
+    margin-left: 50px;
 }
 
 .filters h4
@@ -41,17 +44,18 @@
     font-weight: 400;
     font-size: 14px;
     margin-top: 0px;
-    padding-left: 20px;
+    margin-left: 50px;
 }
 
-.popover
+.popover 
 {
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
+    box-sizing: border-box;
     border-radius: 4px;
     display: none;
-    margin-left: -40px;
     margin-top: 0px;
+    padding-left: 0px;
     position: absolute;
     width: 100%;
 }
@@ -61,13 +65,17 @@
     list-style: none;
     margin-top: 0px;
     padding-top: 0px;
-    margin-bottom: 30px; 
+    padding-left: 30px;
+
+    margin-bottom: 30px ;
 }
 
-.filters .popover li 
+.filters li 
 {
     margin-top: 0px;
     padding-top: 0px;
+    padding-left: -30px;
+    
 }    
 
 #searchButton
@@ -96,7 +104,6 @@
 
 {
     display: block;
-    width: 100%;
 }
 
 
